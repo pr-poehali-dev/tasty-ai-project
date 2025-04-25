@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import FeatureCard from "@/components/FeatureCard";
-import { Brain, Flame, Robot, Star } from "lucide-react";
+import { Brain, Flame, Bot, Star } from "lucide-react";
 
 const Index = () => {
   return (
@@ -64,7 +64,7 @@ const Index = () => {
                 delay={200}
               />
               <FeatureCard 
-                icon={<Robot size={32} />}
+                icon={<Bot size={32} />}
                 title="ИИ-ассистент"
                 description="Получайте подсказки и объяснения от ИИ во время прохождения теста."
                 delay={300}
